@@ -2,7 +2,7 @@ package Shapes;
 
 import java.util.*;
 
-public class pyramid {
+public class rightToLeftRightTriangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

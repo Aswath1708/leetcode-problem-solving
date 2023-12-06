@@ -2,7 +2,7 @@ package Shapes;
 
 import java.util.*;
 
-public class pyramid {
+public class invertedRightTriangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -12,11 +12,9 @@ public class pyramid {
 
         for (i = 1; i <= n; i++) {
 
-            for (j = n; j >= 1; j--) {
-                if (j <= i) {
+            for (j = n; j >= i; j--) {
+                if (j >= i) {
                     System.out.print("* ");
-                }else{
-                    System.out.print(" ");
                 }
 
             }
