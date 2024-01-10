@@ -1,7 +1,7 @@
 package Strings;
 
 import java.util.*;
-import java.io.*;
+//import java.io.*;
 
 public class reverseVowels {
     public static void main(String[] args) {
